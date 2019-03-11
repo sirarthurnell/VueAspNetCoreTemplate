@@ -10,7 +10,7 @@ Concretely, if you use Razor Pages in your new project, you will find some weird
 > error CS0579: Duplicate ‘System.Reflection.AssemblyCompanyAttribute’ attribute
 > error CS0579: Duplicate ‘System.Reflection.AssemblyConfigurationAttribute’ attribute
 > error CS0579: Duplicate ‘System.Reflection.AssemblyFileVersionAttribute’ attribute
-> error CS0579: Duplicate ‘System.Reflection.AssemblyInformationalVersionAttribute’ attribute 
+> error CS0579: Duplicate ‘System.Reflection.AssemblyInformationalVersionAttribute’ attribute
 > error CS0579: Duplicate ‘System.Reflection.AssemblyProductAttribute’ attribute
 > error CS0579: Duplicate ‘System.Reflection.AssemblyTitleAttribute’ attribute
 > error CS0579: Duplicate ‘System.Reflection.AssemblyVersionAttribute’ attribute
