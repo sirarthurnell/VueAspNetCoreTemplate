@@ -1,0 +1,3 @@
+{
+    "extends": "./PresentationLayer/Client/tsconfig.json"
+}
