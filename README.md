@@ -25,6 +25,7 @@ There's another problem with the `experimentalDecorators` param of the `tsconfig
   "extends": "./PresentationLayer/Client/tsconfig.json"
 }
 ```
+I have added some rules to the `tslint.json` file, because the TS linter came almost without any configuration and that makes de development quite annoying.
 
 And another problem I have found and that's pretty annoying is the issue with single quotes and Prettier. Vetur isn't very good at reading Prettier's configurations, so it replaces single quotes with double quotes every time you press `Shift + Alt + F` even if you told Prettier to use single quotes only (more details [here](https://github.com/vuejs/vetur/issues/986)). Another pretty annoying issue that remains unsolved. The solution that always work is adding a `.prettierrc.js` file to the `src` directory with the content:
 
