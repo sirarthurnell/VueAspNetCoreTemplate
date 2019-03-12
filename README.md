@@ -25,7 +25,7 @@ There's another problem with the `experimentalDecorators` param of the `tsconfig
   "extends": "./PresentationLayer/Client/tsconfig.json"
 }
 ```
-I have added some rules to the `tslint.json` file, because the TS linter came almost without any configuration and that makes de development quite annoying.
+I have added some rules to the `tslint.json` file, because the TS linter came almost without any configuration and that makes the development quite annoying.
 
 And another problem I have found and that's pretty annoying is the issue with single quotes and Prettier. Vetur isn't very good at reading Prettier's configurations, so it replaces single quotes with double quotes every time you press `Shift + Alt + F` even if you told Prettier to use single quotes only (more details [here](https://github.com/vuejs/vetur/issues/986)). Another pretty annoying issue that remains unsolved. The solution that always work is adding a `.prettierrc.js` file to the `src` directory with the content:
 
@@ -42,5 +42,7 @@ That file is added to this template too.
 Simply `clone` it and rename those parts you want to rename. Take into account that `tsconfig.json` next to the solution file pointing to the other `tsconfig.json` inside the `Client` directory.
 
 If you don't want to rename it manually, I suggest you using this [tool](https://github.com/sirarthurnell/Renamer) I wrote some time ago. It can make things easier for you.
+
+And remember to execute the commands `dotnet restore` and `npm install` inside the corresponding directories.
 
 I hope this template can save you some time next time you want to start a new Vue + ASP&#46;NET Core project.
